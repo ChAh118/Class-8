@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class 8 Community</title>
+  <style>
+      /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0e0e;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Background */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(""); /* Add background image path */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.6);
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: cyan;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.navbar ul li a:hover {
+  color: cyan;
+}
+
+/* Banner */
+.main-banner {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.main-banner h1 {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+.main-banner {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-image: url(./banner.jpg);  /* <- Add banner image here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-banner p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 10px;
+}
+.discord-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #5865F2;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #5865F2;
+  transition: transform 0.2s ease-in-out;
+}
+.discord-button:hover {
+  transform: scale(1.05);
+}
+
+/* Owner Cards */
+.owners {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 50px 20px;
+}
+.owner-card {
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 0 12px #0ff3;
+}
+.owner-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #444;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer-credits {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 50px;
+}
+/* Motivational text container */
+.motivational {
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 900px; /* Limit the max width */
+  text-align: center; /* Center the text */
+  margin: 50px auto; /* Center the container horizontally */
+  box-sizing: border-box; /* Prevent padding from affecting width */
+}
+
+/* Motivational headings */
+.motivational h1, .motivational h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem; /* Slightly smaller font for readability */
+  color: #00ffff; /* Neon cyan */
+  text-shadow: 0 0 8px #00ffff, 0 0 15px #00ffff; /* Soft neon glow effect */
+  margin-bottom: 15px;
+}
+
+/* Paragraph text */
+.motivational p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+
+  </style>
+</head>
+<body>
+  <!-- Background Image -->
+  <div class="background"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Class 8</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="./m.html">Music</a></li>
+      <li><a href="more.html">More Services</a></li>
+      <li><a href="https://forms.zohopublic.com/chabuhuraira131gm1/form/Contactus/formperma/gwEQjFNil2Gy4t7xQ-obp3lKUM0kKgS0LhPIo-9OE8Y">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Banner -->
+  <header class="main-banner">
+    <!-- Put logo/title/animation here -->
+    <h1>Welcome to Class 8</h1>
+    <p>Where Gamers, Creators & Legends Unite</p>
+    <a href="https://discord.gg/2DYyajYF5j" class="discord-button" target="_blank">Join Our Discord</a>
+  </header>
+  <body>
+  <div class="motivational">
+    <h1>Welcome to the Realm of Legends.</h1>
+    <p>Here, we believe that greatness is not achieved by mere chance, but by the courage to rise every time we fall.</p>
+    <p>This is where you’ll push your limits, break barriers, and shape your destiny.</p>
+    <p>Every challenge is a chance to grow, every setback is a stepping stone to something greater.</p>
+    <h2>You are more than just a player.</h2>
+    <p>You are a creator, a dreamer, and a doer.</p>
+    <p>Together, we build a community that thrives on resilience, passion, and ambition.</p>
+    <h2>In this space, we don't wait for opportunities—we create them.</h2>
+    <p>We don't follow the path; we forge our own trail.</p>
+    <p>Whether you're here to conquer, learn, or connect, know this: Your story is just beginning, and the best chapters are yet to be written.</p>
+    <h2>So rise up.</h2>
+    <p>The journey ahead may be long, but the rewards are legendary.</p>
+    <p>Let’s make every moment count—because in this world, we are the legends we’ve been waiting for.</p>
+    <p>Welcome to Class 8. Where dreams become reality, and heroes are made.</p>
+  </div>
+
+    
+</body>  
+  <!-- Owner Section -->
+  <section class="owners">
+    <div class="owner-card">
+      <img src="./knight.png" alt="Owner 1 PFP">
+      <h3>Frozen Heart</h3>
+      <p>A real Knight with awesome Hight</p>
+    </div>
+    <div class="owner-card">
+      <img src="./daula.jpg" alt="Owner 2 PFP">
+      <h3>Abu Huraira</h3>
+      <p>All in one manager and director 5911</p>
+    </div>
+    <div class="owner-card">
+      <img src="./paper.jpg" alt="Owner 3 PFP">
+      <h3>Papreep</h3>
+      <p>Video editor</p>
+    </div>
+  </section>
+
+  <!-- Footer Credits -->
+  <footer class="footer-credits">
+    <p>© 2025 Class 8 Community. Powered by Abu Huraira. Designed for Legends. It is under develpment, More features comming soon.</p>
+  </footer>
+</body>
+</html>

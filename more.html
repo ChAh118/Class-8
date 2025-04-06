@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Main Coming Soon Section */
+.coming-soon {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3); /* Neon glow effect */
+}
+
+.coming-soon h1 {
+  font-size: 2.8rem;
+  color: #00ffff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.coming-soon p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Go Back Button */
+.go-back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ffff;
+  color: #0e0e0e;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #00ffff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.go-back-btn:hover {
+  background-color: #00b3b3;
+  transform: scale(1.05);
+}
+
+body{
+    background-image: url(<iframe src="https://giphy.com/embed/KZFrf9JusXzmpnPsT6" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/loop-flow-electric-KZFrf9JusXzmpnPsT6">via GIPHY</a></p>);
+}
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coming Soon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="coming-soon">
+    <div class="content">
+      <h1>Something Big is Coming!</h1>
+      <p>We are working hard to bring something amazing your way.</p>
+      <p class="message">Stay tuned and get ready for an incredible experience!</p>
+      <a href="index.html" class="go-back-btn">Go Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>
